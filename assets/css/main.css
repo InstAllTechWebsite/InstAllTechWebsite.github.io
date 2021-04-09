@@ -1878,6 +1878,7 @@ input, select, textarea {
 			display: inline-block;
 			margin-right: 0.25em;
 			padding-left: 0;
+			padding-top: 0.25em;
 		}
 
 			.widget.contact ul li a {
@@ -2885,7 +2886,7 @@ input, select, textarea {
 		padding-right: 0;
 		vertical-align: middle; }
 		ul.pagination li> .button{
-			padding: 0.1em 0.75em;
+			padding: 0.1em 0.75em !important;
 		}
 		ul.pagination li > .page {
 			-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
