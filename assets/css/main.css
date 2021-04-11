@@ -1945,14 +1945,16 @@ input, select, textarea {
 	}
 
 		#logo h1 {
-			background: #ff4486;
+			background: #44b4ff;
 			color: #fff;
 			border-radius: 6px;
+			
 			font-family: 'Oleo Script', serif;
 			font-weight: 400;
 			padding: 0.25em 0.2em 0.25em 0.2em;
 			font-size: 3.25em;
 			letter-spacing: 0.05em;
+			/* margin: 0 0 50% 0; */
 			display: inline-block;
 			vertical-align: middle;
 		}
@@ -1967,7 +1969,9 @@ input, select, textarea {
 		}
 
 		#logo img{
-			width:200px;
+			width:100px;
+			vertical-align: middle;
+			margin-right: 1em;
 		}
 
 /* Nav */
@@ -1977,6 +1981,11 @@ input, select, textarea {
 		right: 0;
 		top: 0;
 		font-size: 0.9em;
+
+		-moz-transform: translateY(25%);
+		-webkit-transform: translateY(25%);
+		-ms-transform: translateY(25%);
+		transform: translateY(25%);
 	}
 
 		#nav ul {
@@ -1990,7 +1999,7 @@ input, select, textarea {
 				padding-left: 1.5em;
 			}
 
-				#nav ul li a, #nav ul li span {
+				#nav ul li a, #nav ul li span, #nav ul li section {
 					-moz-transition: background-color .25s ease-in-out;
 					-webkit-transition: background-color .25s ease-in-out;
 					-ms-transition: background-color .25s ease-in-out;
