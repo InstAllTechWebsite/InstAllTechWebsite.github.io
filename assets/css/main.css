@@ -3039,6 +3039,16 @@ input, select, textarea {
 	margin: 0 0 5em 25%;
 }
 
+#tutorialvideodiv{
+	text-align: center;
+	height: 400px;
+}
+
+#tutorialvideo{
+	height:100%;
+	width: 100%;
+}
+
 #maincontent {
 	margin: 0 0 1.1em 0;
 	text-align: center;
