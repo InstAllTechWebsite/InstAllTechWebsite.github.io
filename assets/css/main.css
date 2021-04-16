@@ -3035,7 +3035,9 @@ input, select, textarea {
 		  margin-left: 2em; }
 
 #tutorialsoftwarelogo {
+	/* TODO: Netflix doesn't work well with this css rule */
 	width: 50%;
+	/* height: 100px; */
 	margin: 0 0 5em 25%;
 }
 
