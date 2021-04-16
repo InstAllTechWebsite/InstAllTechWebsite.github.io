@@ -19,14 +19,22 @@ let listOfSoftwares = [
     "Netflix"
 ]
 
+let software2logourl = {
+    "Zoom":"/zoom/logo.png",
+    "Chrome":"/chrome/logo.png",
+    "Firefox":"/firefox/logo.svg",
+    "Edge":"/edge/logo.png",
+    "Netflix":"/netflix/logo.png"
+}
+
 let tutorialsDB = [
-    {name: "How to Share Your Screen",          software:"Zoom",    url:"instAllTechWebsite.github.io/zoom/screen-share/"},
-    {name: "How to Record a Meeting",           software:"Zoom",    url:"instAllTechWebsite.github.io/zoom/record-meeting/"},
-    {name: "How to Print Your Screen",          software:"Chrome",  url:"instAllTechWebsite.github.io/chrome/print-screen/"},
-    {name: "How to Print Your Screen",          software:"Firefox", url:"instAllTechWebsite.github.io/firefox/print-screen/"},
-    {name: "How to Print Your Screen",          software:"Edge",    url:"instAllTechWebsite.github.io/edge/print-screen/"},
-    {name: "How to Watch a Movie",              software:"Netflix", url:"instAllTechWebsite.github.io/netflix/watch-movie/"},
-    {name: "How to Add Something to Your List", software:"Netflix", url:"instAllTechWebsite.github.io/netflix/add-to-list/"},
+    {name: "How to Share Your Screen",          software:"Zoom",    url:"/zoom/screen-share/"},
+    {name: "How to Record a Meeting",           software:"Zoom",    url:"/zoom/record-meeting/"},
+    {name: "How to Print Your Screen",          software:"Chrome",  url:"/chrome/print-screen/"},
+    {name: "How to Print Your Screen",          software:"Firefox", url:"/firefox/print-screen/"},
+    {name: "How to Print Your Screen",          software:"Edge",    url:"/edge/print-screen/"},
+    {name: "How to Watch a Movie",              software:"Netflix", url:"/netflix/watch-movie/"},
+    {name: "How to Add Something to Your List", software:"Netflix", url:"/netflix/add-to-list/"},
 ]
 
 console.log(tutorialsDB)
@@ -95,7 +103,7 @@ tutorialsDB.forEach(function(tut) {
     tutEntry.classList.add("box");
 
     softwLogo = document.createElement("img");
-    softwLogo.src = "https://lh3.googleusercontent.com/-3TZFFWBC8VA/AAAAAAAAAAI/AAAAAAAAAAA/AMZuuckVv49ggCGeFxa6DfVnvaFfGQ8ggw/photo.jpg?sz=46";
+    softwLogo.src = software2logourl[tut.software];
     tutEntry.appendChild(softwLogo)
 
     textDiv = document.createElement("div");

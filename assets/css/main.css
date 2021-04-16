@@ -3079,6 +3079,7 @@ input, select, textarea {
 	width:100%
 }
 
-/* #searchResEntries img{
-	 float: left;
-} */
+#searchResEntries img{
+	 /* float: left; */
+	 height:100px;
+}
