@@ -3066,3 +3066,19 @@ input, select, textarea {
 	margin: 0 0 1.1em 0;
 	text-align: center;
 }
+
+
+/* TODO: Float image left of the content */
+/* #searchResEntries{ 
+	display: inline-block;
+
+} */
+
+#searchResEntries div{ 
+	display: inline-block;
+	width:100%
+}
+
+/* #searchResEntries img{
+	 float: left;
+} */
