@@ -39,14 +39,27 @@ htmlpage = '''
 						<!-- Nav -->
 							<nav id="nav">
 								<ul>
+									<!-- <li class="current"><a href="index.html">Welcome</a></li>
+									<li><a href="tutorial-landingpage-template.html">Tutorial Page</a></li>
+									<li><a href="elements.html">Elements</a></li> -->
 									<li>	
 										<section id="search" class="alt">
-											<form method="post" action="#">
-												<input type="text" name="query" id="query" placeholder="Search" />
+											<script>
+												function clickPress(event) {
+													if (event.keyCode == 13) {
+														let searchterms = document.getElementById('query').value;
+														let newurl = "./search/index.html?query="+searchterms;
+														window.location.href = newurl;
+													}
+												}
+											</script>
+											<form id="searchbar" onsubmit="clickPress(13);" target="_blank">
+												<input type="text" name="query" id="query" placeholder="Search" onkeypress="clickPress(event)"/>
 											</form>
 										</section>
 									</li>
 								</ul>
+							
 							</nav>
 					</header>
 				</div>
