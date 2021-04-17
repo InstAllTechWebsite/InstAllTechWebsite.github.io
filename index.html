@@ -40,17 +40,16 @@
 									<li>	
 										<section id="search" class="alt">
 											<script>
-												function submitSearch(){
-													let searchterms = document.getElementById('query').value;
-													let newurl = "/instAllTechWebsite.github.io/search/?query="+searchterms;
-													// document.getElementById("searchbar").action = newurl;
-													
-													//Not really sure if this is best practice
-													window.location.href = newurl;
+												function clickPress(event) {
+													if (event.keyCode == 13) {
+														let searchterms = document.getElementById('query').value;
+														let newurl = "/instAllTechWebsite.github.io/search/index.html?query="+searchterms;
+														window.location.href = newurl;
+													}
 												}
 											</script>
-											<form id="searchbar" action="/instAllTechWebsite.github.io/search/" onsubmit="submitSearch();">
-												<input type="text" name="query" id="query" placeholder="Search" />
+											<form id="searchbar" onsubmit="clickPress(13);" target="_blank">
+												<input type="text" name="query" id="query" placeholder="Search" onkeypress="clickPress(event)"/>
 											</form>
 										</section>
 									</li>

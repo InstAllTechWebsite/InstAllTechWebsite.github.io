@@ -1,4 +1,5 @@
-// You should only have one query String, and must be `?q=`
+// https://installtechwebsite.github.io/search/?query=<search something>&software=<some software>
+
 
 
 /*
@@ -8,8 +9,6 @@ TODO's
 - fix css http://jsfiddle.net/thirtydot/RXrvZ/1/
 
 */
-
-// 5:30p
 
 let listOfSoftwares = [
     "Zoom",
