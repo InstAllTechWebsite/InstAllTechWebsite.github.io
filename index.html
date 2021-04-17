@@ -43,7 +43,10 @@
 												function submitSearch(){
 													let searchterms = document.getElementById('query').value;
 													let newurl = "/instAllTechWebsite.github.io/search/?query="+searchterms;
-													document.getElementById("searchbar").action = newurl;
+													// document.getElementById("searchbar").action = newurl;
+													
+													//Not really sure if this is best practice
+													window.location.href = newurl;
 												}
 											</script>
 											<form id="searchbar" action="/instAllTechWebsite.github.io/search/" onsubmit="submitSearch();">
