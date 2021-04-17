@@ -19,21 +19,21 @@ let listOfSoftwares = [
 ]
 
 let software2logourl = {
-    "Zoom":"/zoom/logo.png",
-    "Chrome":"/chrome/logo.png",
-    "Firefox":"/firefox/logo.svg",
-    "Edge":"/edge/logo.png",
-    "Netflix":"/netflix/logo.png"
+    "Zoom":"../zoom/logo.png",
+    "Chrome":"../chrome/logo.png",
+    "Firefox":"../firefox/logo.svg",
+    "Edge":"../edge/logo.png",
+    "Netflix":"../netflix/logo.png"
 }
 
 let tutorialsDB = [
-    {name: "How to Share Your Screen",          software:"Zoom",    url:"/zoom/screen-share/"},
-    {name: "How to Record a Meeting",           software:"Zoom",    url:"/zoom/record-meeting/"},
-    {name: "How to Print Your Screen",          software:"Chrome",  url:"/chrome/print-screen/"},
-    {name: "How to Print Your Screen",          software:"Firefox", url:"/firefox/print-screen/"},
-    {name: "How to Print Your Screen",          software:"Edge",    url:"/edge/print-screen/"},
-    {name: "How to Watch a Movie",              software:"Netflix", url:"/netflix/watch-movie/"},
-    {name: "How to Add Something to Your List", software:"Netflix", url:"/netflix/add-to-list/"},
+    {name: "How to Share Your Screen",          software:"Zoom",    url:"../zoom/screen-share/"},
+    {name: "How to Record a Meeting",           software:"Zoom",    url:"../zoom/record-meeting/"},
+    {name: "How to Print Your Screen",          software:"Chrome",  url:"../chrome/print-screen/"},
+    {name: "How to Print Your Screen",          software:"Firefox", url:"../firefox/print-screen/"},
+    {name: "How to Print Your Screen",          software:"Edge",    url:"../edge/print-screen/"},
+    {name: "How to Watch a Movie",              software:"Netflix", url:"../netflix/watch-movie/"},
+    {name: "How to Add Something to Your List", software:"Netflix", url:"../netflix/add-to-list/"},
 ]
 
 console.log(tutorialsDB)
