@@ -64,13 +64,13 @@
 					<div id="banner" class="box container">
 						<div class="row">
 							<div class="col-7 col-12-medium">
-								<h2>Hi. This is InstAllTech.</h2>
-								<p>Site under construction. Check back soon!!</p>
+								<h2>Welcome to InstAllTech!</h2>
+								<p>The one site for all your tech tutorial needs!</p>
 							</div>
 							<div class="col-5 col-12-medium">
 								<ul>
-									<li><a href="#" class="button large icon solid fa-arrow-circle-right">Ok let's go</a></li>
-									<li><a href="#" class="button alt large icon solid fa-question-circle">More info</a></li>
+									<li><a href="/search/" class="button large icon solid fa-arrow-circle-right">View all tutorials</a></li>
+									<li><a href="#" id = "myBtn2" class=" button alt large icon solid fa-question-circle">Get Live Help</a></li>
 								</ul>
 							</div>
 						</div>
@@ -596,6 +596,10 @@
 
 				// When the user clicks the button, open the modal 
 				btn.onclick = function() {
+				modal.style.display = "block";
+				}
+				// When the user clicks the button, open the modal 
+				document.getElementById("myBtn2").onclick = function() {
 				modal.style.display = "block";
 				}
 
