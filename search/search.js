@@ -50,7 +50,7 @@ let tutorialsDB = [
         url: "../netflix/watch-movie/",
     },
     {
-        name: "How to Add Something to Your List",
+        name: "How to Add a Movie to Your List",
         software: "Netflix",
         url: "../netflix/add-to-list/",
     },
