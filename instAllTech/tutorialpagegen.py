@@ -1,13 +1,21 @@
-# You should do a 'find and replace' for '<local path>' and replace it with your path
-# I.e. "<local path>" -> "C:/Users/yourname/git/InstAllTechWebsite.github.io"
+import os
+# Be sure to have the logo in /<parentfolder>/logo.png
 
-software = "Zoom"
-tutorialname = "Record a Meeting"
-videosrc = "zoom-record-meeting.mp4"
-parentfoldername = "zoom"
-childfoldername = "record-meeting"
+software = input('software human-readable name( "Zoom"):')
+tutorialname = input('tutorialname ( "How to Join a Zoom Meeting"):')
+videosrc = input('videosrc ( "zoom-join-meeting.mp4"):')
+parentfoldername = input('parentfoldername ( "zoom"):')
+childfoldername = input('childfoldername ( "join-meeting"):')
 
 
+# ../%s/%s/index.html
+#make folders if not exist
+makefolder = '../'+parentfoldername
+if not os.path.exists(makefolder):
+    os.makedirs(makefolder)
+makefolder = makefolder + "/"+childfoldername
+if not os.path.exists(makefolder):
+    os.makedirs(makefolder)
 
 htmlpage = '''
 <!DOCTYPE HTML>
