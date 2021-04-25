@@ -21,7 +21,7 @@ htmlpage = '''
 		<title>%s - %s | InstAllTech</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="/C:/Users/Tantive4_Empire/git/InstAllTechWebsite.github.io/assets/css/main.css" />
+		<link rel="stylesheet" href="../../assets/css/main.css" />
 	</head>
 	<body class="is-preload no-sidebar">
 		<div id="page-wrapper">
@@ -32,8 +32,8 @@ htmlpage = '''
 
 						<!-- Logo -->
 							<div id="logo">
-								<img src="/C:/Users/Tantive4_Empire/git/InstAllTechWebsite.github.io/instAllTech/logo-2-wrench_rotate-text.png" alt="InstAllTech Logo">
-								<h1><a href="/C:/Users/Tantive4_Empire/git/InstAllTechWebsite.github.io/index.html">InstAllTech</a></h1>
+								<img src="../../instAllTech/logo-2-wrench_rotate-text.png" alt="InstAllTech Logo">
+								<h1><a href="../../index.html">InstAllTech</a></h1>
 							</div>
 
 						<!-- Nav -->
@@ -71,7 +71,7 @@ htmlpage = '''
 
 							<!-- Content -->
 								<article>
-									<img id="tutorialsoftwarelogo" src="/C:/Users/Tantive4_Empire/git/InstAllTechWebsite.github.io/%s/logo.png" alt="" />
+									<img id="tutorialsoftwarelogo" src="../../%s/logo.png" alt="" />
 
 									<h2>%s</h2>
 									
@@ -139,12 +139,12 @@ htmlpage = '''
 
 		<!-- Scripts -->
 
-			<script src="/C:/Users/Tantive4_Empire/git/InstAllTechWebsite.github.io/assets/js/jquery.min.js"></script>
-			<script src="/C:/Users/Tantive4_Empire/git/InstAllTechWebsite.github.io/assets/js/jquery.dropotron.min.js"></script>
-			<script src="/C:/Users/Tantive4_Empire/git/InstAllTechWebsite.github.io/assets/js/browser.min.js"></script>
-			<script src="/C:/Users/Tantive4_Empire/git/InstAllTechWebsite.github.io/assets/js/breakpoints.min.js"></script>
-			<script src="/C:/Users/Tantive4_Empire/git/InstAllTechWebsite.github.io/assets/js/util.js"></script>
-			<script src="/C:/Users/Tantive4_Empire/git/InstAllTechWebsite.github.io/assets/js/main.js"></script>
+			<script src="../../assets/js/jquery.min.js"></script>
+			<script src="../../assets/js/jquery.dropotron.min.js"></script>
+			<script src="../../assets/js/browser.min.js"></script>
+			<script src="../../assets/js/breakpoints.min.js"></script>
+			<script src="../../assets/js/util.js"></script>
+			<script src="../../assets/js/main.js"></script>
 
 	</body>
 </html>''' % (tutorialname, software, parentfoldername, tutorialname, videosrc)
