@@ -1,11 +1,11 @@
 import os
 # Be sure to have the logo in /<parentfolder>/logo.png
 
-software = input('software human-readable name( "Zoom"):')
-tutorialname = input('tutorialname ( "How to Join a Zoom Meeting"):')
-videosrc = input('videosrc ( "zoom-join-meeting.mp4"):')
-parentfoldername = input('parentfoldername ( "zoom"):')
-childfoldername = input('childfoldername ( "join-meeting"):')
+software = input('Software name. This appears in the title of the tab ("Zoom"):')
+tutorialname = input('Name of the tutorial. This appears in the main content of the page in <h2> as the title("How to Join a Zoom Meeting"):')
+videosrc = input('Name of the video file. ("zoom-join-meeting.mp4"):')
+parentfoldername = input('Name of the parent folder. This should be the name of the software, in lowercase ( "zoom"):')
+childfoldername = input('Name of the child folder. This should be the goal of the tutorial, in lowercase and hyphenated ( "join-meeting"):')
 
 
 # ../%s/%s/index.html
@@ -92,7 +92,7 @@ htmlpage = '''
 									<br/>
 
 									<ol>
-										<li>###MANUALLY FILL###</li>
+									
 									</ol>
 
 									<h3>Additional Resources</h3>
