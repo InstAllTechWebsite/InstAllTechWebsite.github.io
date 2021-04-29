@@ -30,6 +30,21 @@ let tutorialsDB = [
         url: "../zoom/record-meeting/",
     },
     {
+        name: "How to Join a Meeting",
+        software: "Zoom",
+        url: "../zoom/join-meeting/",
+    },
+    {
+        name: "Meeting Controls Icons",
+        software: "Zoom",
+        url: "../zoom/meeting-controls/",
+    },
+    {
+        name: "How to Install Zoom",
+        software: "Zoom",
+        url: "../zoom/install/",
+    },
+    {
         name: "How to Print Your Screen",
         software: "Chrome",
         url: "../chrome/print-screen/",
