@@ -54,6 +54,31 @@ let tutorialsDB = [
         software: "Netflix",
         url: "../netflix/add-to-list/",
     },
+    {
+        name: "How to Make and Listen to a Groove Playlist",
+        software: "Groove Music",
+        url: "../groove/playlist/",
+    },
+    {
+        name: "How to Install Skype",
+        software: "Skype",
+        url: "../skype/install/",
+    },
+    {
+        name: "How to Install Edge",
+        software: "Edge",
+        url: "../edge/install/"
+    },
+    {
+        name: "How to Install Firefox",
+        software: "Firefox",
+        url: "../firefox/install/"
+    },
+    {
+        name: "How to Install Chrome",
+        software: "Chrome",
+        url: "../chrome/install"
+    },
 ];
 
 // Get the search terms (from the query string)
