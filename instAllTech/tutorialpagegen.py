@@ -1,12 +1,19 @@
 import os
 # Be sure to have the logo in /<parentfolder>/logo.png
 
-software = input('Software name. This appears in the title of the tab ("Zoom"):')
-tutorialname = input('Name of the tutorial. This appears in the main content of the page in <h2> as the title("How to Join a Zoom Meeting"):')
-videosrc = input('Name of the video file. ("zoom-join-meeting.mp4"):')
-parentfoldername = input('Name of the parent folder. This should be the name of the software, in lowercase ( "zoom"):')
-childfoldername = input('Name of the child folder. This should be the goal of the tutorial, in lowercase and hyphenated ( "join-meeting"):')
+print("Tutorial page generator. You should be in the /installtech/ folder")
 
+
+software_title_human_read = input('Software Name (Human readable. Capitalized first letter) Ex:"Zoom":')
+tutorialname = input('Tutorial Name (Human Readable) Appears in the main content of the page in <h2> as the title("How to Join a Zoom Meeting"):')
+videosrc = input('Video File Name ("zoom-join-meeting.mp4"):')
+parentfoldername = input('Parent folder Name. Should be the name of the software, in lowercase ( "zoom"):')
+childfoldername = input('child folder Name. Should be the goal of the tutorial, in lowercase and hyphenated ( "join-meeting"):')
+
+print("For the search function\n")
+print(f'{{name: "{tutorialname}",\
+        software: "{software_title_human_read}",\
+        url: "../{parentfoldername}/{childfoldername}"}},')
 
 # ../%s/%s/index.html
 #make folders if not exist
@@ -155,7 +162,7 @@ htmlpage = '''
 			<script src="../../assets/js/main.js"></script>
 
 	</body>
-</html>''' % (tutorialname, software, parentfoldername, tutorialname, videosrc)
+</html>''' % (tutorialname, software_title_human_read, parentfoldername, tutorialname, videosrc)
 
 with open('../%s/%s/index.html' %(parentfoldername, childfoldername), 'a') as f:
     f.write(htmlpage)
