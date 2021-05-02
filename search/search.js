@@ -82,17 +82,27 @@ let tutorialsDB = [
     {
         name: "How to Install Edge",
         software: "Edge",
-        url: "../edge/install/"
+        url: "../edge/install/",
     },
     {
         name: "How to Install Firefox",
         software: "Firefox",
-        url: "../firefox/install/"
+        url: "../firefox/install/",
     },
     {
         name: "How to Install Chrome",
         software: "Chrome",
-        url: "../chrome/install"
+        url: "../chrome/install",
+    },
+    {
+        name: "How to Install Whatsapp",
+        software: "Whatsapp",
+        url: "../whatsapp/install",
+    },
+    {
+        name: "How to Use Whatsapp on a Computer",
+        software: "Whatsapp",
+        url: "../whatsapp/use-on-pc",
     },
 ];
 
