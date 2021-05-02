@@ -124,8 +124,16 @@ let tutorialsDB = [
         software: "Teams",
         url: "../teams/record-meeting",
     },
-    { name: "How to Use Word", software: "Word", url: "../word/use" },
-    { name: "How to Print a Document", software: "Word", url: "../word/print" },
+    {
+        name: "How to Use Word",
+        software: "Word",
+        url: "../word/use",
+    },
+    {
+        name: "How to Print a Document",
+        software: "Word",
+        url: "../word/print",
+    },
     {
         name: "How to Open a File From File Explorer",
         software: "Word",
@@ -136,6 +144,11 @@ let tutorialsDB = [
         software: "YouTube",
         url: "../youtube/watch",
     },
+    {
+        name: "How to Create a Spotify Account",
+        software: "Spotify",
+        url: "../spotify/create-account",
+    },{name: "How to Make and Listen to a Spotify Playlist",        software: "Spotify",        url: "../spotify/playlist"},
 ];
 
 // Get the search terms (from the query string)
