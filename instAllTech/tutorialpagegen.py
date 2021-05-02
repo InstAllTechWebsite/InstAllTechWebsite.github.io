@@ -116,31 +116,20 @@ htmlpage = '''
 			<!-- Footer -->
 				<div id="footer-wrapper">
 					<footer id="footer" class="container">
-						<div class="row">
-							<div class="col-3 col-6-medium col-12-small" style="text-align: center;">
-								<!-- TODO: Fix CSS for this -->
-								
-								<!-- Contact -->
-									<section class="widget contact">
-										<h3>Contact Us</h3>
-										<ul>
-											<li><a href="https://github.com/InstAllTechWebsite/InstAllTechWebsite.github.io" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-											<!-- <li><a href="#" class="icon brands fa fa-envelope-open"><span class="label">Email</span></a></li> -->
-										</ul>
-									</section>
 
-							</div>
-						</div>
 						<div class="row">
 							<div class="col-12">
 								<div id="copyright">
 									<ul class="menu">
 										<li>&copy; InstAllTech. All rights reserved</li>
-										<li>Created by: 
-											Ruipu Hu,
-											Angela Ngo,
-											Megan Rutch, and 
-											Lucas Soohoo
+										<li>
+											<a href = "/instAllTech/about.html">
+												Created by: 
+												Ruipu Hu,
+												Angela Ngo,
+												Megan Rutch, and 
+												Lucas Soohoo
+											</a>
 										</li>
 										<li>Design: <a href="https://html5up.net/verti">HTML5 UP</a></li>
 									</ul>
