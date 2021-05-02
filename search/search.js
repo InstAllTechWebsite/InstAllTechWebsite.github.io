@@ -8,14 +8,19 @@ TODO's
 
 */
 
-let listOfSoftwares = ["Zoom", "Chrome", "Firefox", "Edge", "Netflix"];
-
 let software2logourl = {
     Zoom: "../zoom/logo.png",
     Chrome: "../chrome/logo.png",
     Firefox: "../firefox/logo.svg",
     Edge: "../edge/logo.png",
     Netflix: "../netflix/logo.png",
+    Groove: "../groove/logo.png",
+    Skype: "../skype/logo.png",
+    Whatsapp: "../whatsapp/logo.png",
+    Teams: "../teams/logo.png",
+    Word: "../word/logo.png",
+    YouTube: "../youtube/logo.png",
+    Spotify: "../spotify/logo.png",
 };
 
 let tutorialsDB = [
@@ -71,7 +76,7 @@ let tutorialsDB = [
     },
     {
         name: "How to Make and Listen to a Groove Playlist",
-        software: "Groove Music",
+        software: "Groove",
         url: "../groove/playlist/",
     },
     {
@@ -148,7 +153,12 @@ let tutorialsDB = [
         name: "How to Create a Spotify Account",
         software: "Spotify",
         url: "../spotify/create-account",
-    },{name: "How to Make and Listen to a Spotify Playlist",        software: "Spotify",        url: "../spotify/playlist"},
+    },
+    {
+        name: "How to Make and Listen to a Spotify Playlist",
+        software: "Spotify",
+        url: "../spotify/playlist",
+    },
 ];
 
 // Get the search terms (from the query string)
