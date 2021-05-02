@@ -104,6 +104,21 @@ let tutorialsDB = [
         software: "Whatsapp",
         url: "../whatsapp/use-on-pc",
     },
+    {
+        name: "Meeting Controls Icons",
+        software: "Teams",
+        url: "../teams/meeting-controls",
+    },
+    {
+        name: "How to Share Your Screen",
+        software: "Teams",
+        url: "../teams/share-screen",
+    },
+    {
+        name: "How to Install Teams",
+        software: "Teams",
+        url: "../teams/install",
+    },{name: "Record a Meeting",        software: "Teams",        url: "../teams/record-meeting"},
 ];
 
 // Get the search terms (from the query string)
