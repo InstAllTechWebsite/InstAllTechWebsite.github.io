@@ -229,28 +229,36 @@ if (searchFilters.software != "") {
 
 // ===== Fill the Search Results with entries
 entriesBoxHTML = document.getElementById("searchResEntries");
-tutorialsDB.forEach(function (tut) {
-    tutEntry = document.createElement("div");
-    tutEntry.classList.add("box");
 
-    softwLogo = document.createElement("img");
-    softwLogo.src = software2logourl[tut.software];
-    tutEntry.appendChild(softwLogo);
+if (tutorialsDB.length > 0) {
 
-    textDiv = document.createElement("div");
+    // hide the "no results found" text
+    document.getElementById("noRes").style.display = "none";
 
-    h3title = document.createElement("h3");
-    h3a = document.createElement("a");
-    h3a.href = tut.url;
-    h3a.innerText = tut.name;
-    h3title.appendChild(h3a);
-    textDiv.appendChild(h3title);
+    tutorialsDB.forEach(function (tut) {
+        tutEntry = document.createElement("div");
+        tutEntry.classList.add("box");
 
-    pSoftwareName = document.createElement("p");
-    pSoftwareName.innerText = tut.software;
-    textDiv.appendChild(pSoftwareName);
+        softwLogo = document.createElement("img");
+        softwLogo.src = software2logourl[tut.software];
+        tutEntry.appendChild(softwLogo);
 
-    tutEntry.appendChild(textDiv);
+        textDiv = document.createElement("div");
 
-    entriesBoxHTML.appendChild(tutEntry);
-});
+        h3title = document.createElement("h3");
+        h3a = document.createElement("a");
+        h3a.href = tut.url;
+        h3a.innerText = tut.name;
+        h3title.appendChild(h3a);
+        textDiv.appendChild(h3title);
+
+        pSoftwareName = document.createElement("p");
+        pSoftwareName.innerText = tut.software;
+        textDiv.appendChild(pSoftwareName);
+
+        tutEntry.appendChild(textDiv);
+
+        entriesBoxHTML.appendChild(tutEntry);
+    });
+
+}
