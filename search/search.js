@@ -124,6 +124,7 @@ let tutorialsDB = [
         software: "Teams",
         url: "../teams/install",
     },
+    {name: "How to Join a Teams Meeting",        software: "Teams",        url: "../teams/join-meeting"},
     {
         name: "Record a Meeting",
         software: "Teams",
