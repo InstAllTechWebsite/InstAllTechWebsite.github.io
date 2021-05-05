@@ -25,29 +25,9 @@ let software2logourl = {
 
 let tutorialsDB = [
     {
-        name: "How to Share Your Screen",
-        software: "Zoom",
-        url: "../zoom/screen-share/",
-    },
-    {
-        name: "How to Record a Meeting",
-        software: "Zoom",
-        url: "../zoom/record-meeting/",
-    },
-    {
-        name: "How to Join a Meeting",
-        software: "Zoom",
-        url: "../zoom/join-meeting/",
-    },
-    {
-        name: "Meeting Controls Icons",
-        software: "Zoom",
-        url: "../zoom/meeting-controls/",
-    },
-    {
-        name: "How to Install Zoom",
-        software: "Zoom",
-        url: "../zoom/install/",
+        name: "How to Install Chrome",
+        software: "Chrome",
+        url: "../chrome/install",
     },
     {
         name: "How to Print Your Screen",
@@ -55,9 +35,9 @@ let tutorialsDB = [
         url: "../chrome/print-screen/",
     },
     {
-        name: "How to Print Your Screen",
-        software: "Firefox",
-        url: "../firefox/print-screen/",
+        name: "How to Install Edge",
+        software: "Edge",
+        url: "../edge/install/",
     },
     {
         name: "How to Print Your Screen",
@@ -65,14 +45,14 @@ let tutorialsDB = [
         url: "../edge/print-screen/",
     },
     {
-        name: "How to Watch a Movie",
-        software: "Netflix",
-        url: "../netflix/watch-movie/",
+        name: "How to Install Firefox",
+        software: "Firefox",
+        url: "../firefox/install/",
     },
     {
-        name: "How to Add a Movie to Your List",
-        software: "Netflix",
-        url: "../netflix/add-to-list/",
+        name: "How to Print Your Screen",
+        software: "Firefox",
+        url: "../firefox/print-screen/",
     },
     {
         name: "How to Make and Listen to a Groove Playlist",
@@ -80,24 +60,55 @@ let tutorialsDB = [
         url: "../groove/playlist/",
     },
     {
+        name: "How to Add a Movie to Your List",
+        software: "Netflix",
+        url: "../netflix/add-to-list/",
+    },
+    {
+        name: "How to Watch a Movie",
+        software: "Netflix",
+        url: "../netflix/watch-movie/",
+    },
+    {
         name: "How to Install Skype",
         software: "Skype",
         url: "../skype/install/",
     },
     {
-        name: "How to Install Edge",
-        software: "Edge",
-        url: "../edge/install/",
+        name: "How to Create a Spotify Account",
+        software: "Spotify",
+        url: "../spotify/create-account",
     },
     {
-        name: "How to Install Firefox",
-        software: "Firefox",
-        url: "../firefox/install/",
+        name: "How to Make and Listen to a Spotify Playlist",
+        software: "Spotify",
+        url: "../spotify/playlist",
+    },
+
+    {
+        name: "How to Install Teams",
+        software: "Teams",
+        url: "../teams/install",
     },
     {
-        name: "How to Install Chrome",
-        software: "Chrome",
-        url: "../chrome/install",
+        name: "How to Join a Teams Meeting",
+        software: "Teams",
+        url: "../teams/join-meeting"
+    },
+    {
+        name: "Meeting Controls Icons",
+        software: "Teams",
+        url: "../teams/meeting-controls",
+    },
+    {
+        name: "Record a Meeting",
+        software: "Teams",
+        url: "../teams/record-meeting",
+    },
+    {
+        name: "How to Share Your Screen",
+        software: "Teams",
+        url: "../teams/share-screen",
     },
     {
         name: "How to Install Whatsapp",
@@ -110,30 +121,9 @@ let tutorialsDB = [
         url: "../whatsapp/use-on-pc",
     },
     {
-        name: "Meeting Controls Icons",
-        software: "Teams",
-        url: "../teams/meeting-controls",
-    },
-    {
-        name: "How to Share Your Screen",
-        software: "Teams",
-        url: "../teams/share-screen",
-    },
-    {
-        name: "How to Install Teams",
-        software: "Teams",
-        url: "../teams/install",
-    },
-    {name: "How to Join a Teams Meeting",        software: "Teams",        url: "../teams/join-meeting"},
-    {
-        name: "Record a Meeting",
-        software: "Teams",
-        url: "../teams/record-meeting",
-    },
-    {
-        name: "How to Use Word",
+        name: "How to Open a File From File Explorer",
         software: "Word",
-        url: "../word/use",
+        url: "../word/open-file",
     },
     {
         name: "How to Print a Document",
@@ -141,9 +131,9 @@ let tutorialsDB = [
         url: "../word/print",
     },
     {
-        name: "How to Open a File From File Explorer",
+        name: "How to Use Word",
         software: "Word",
-        url: "../word/open-file",
+        url: "../word/use",
     },
     {
         name: "How to Watch a Video",
@@ -151,14 +141,29 @@ let tutorialsDB = [
         url: "../youtube/watch",
     },
     {
-        name: "How to Create a Spotify Account",
-        software: "Spotify",
-        url: "../spotify/create-account",
+        name: "How to Install Zoom",
+        software: "Zoom",
+        url: "../zoom/install/",
     },
     {
-        name: "How to Make and Listen to a Spotify Playlist",
-        software: "Spotify",
-        url: "../spotify/playlist",
+        name: "How to Join a Meeting",
+        software: "Zoom",
+        url: "../zoom/join-meeting/",
+    },
+    {
+        name: "Meeting Controls Icons",
+        software: "Zoom",
+        url: "../zoom/meeting-controls/",
+    },
+    {
+        name: "How to Record a Meeting",
+        software: "Zoom",
+        url: "../zoom/record-meeting/",
+    },
+    {
+        name: "How to Share Your Screen",
+        software: "Zoom",
+        url: "../zoom/screen-share/",
     },
 ];
 
